@@ -1,0 +1,11 @@
+{% load i18n %}
+<div class="container py-5">
+    <div class="text-center"><h6 class="section-title text-primary text-uppercase">{% translate "Our Rooms" %}</h6><h1 class="mb-5">{% translate "Explore Our" %} <span class="text-primary text-uppercase">{% translate "Rooms" %}</span></h1></div>
+    <div class="row g-4">
+        {% for room in rooms %}
+            {% include 'room_card.html' %}
+        {% empty %}
+            <div class="col-12"><p class="alert alert-info">{% translate "No rooms match your search. Try other dates or filters." %}</p></div>
+        {% endfor %}
+    </div>
+</div>

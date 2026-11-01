@@ -1,0 +1,9 @@
+{% load i18n %}
+<div class="container py-5">
+    <div class="text-center"><h6 class="section-title text-primary text-uppercase">{% translate "Our Rooms" %}</h6><h2 class="mb-5">{% translate "Explore Our" %} <span class="text-primary text-uppercase">{% translate "Rooms" %}</span></h2></div>
+    <div class="row g-4">
+        {% for room in rooms %}{% include 'room_card.html' %}
+        {% empty %}<p>{% translate "No rooms are currently available." %}</p>{% endfor %}
+    </div>
+    <a class="btn btn-primary mt-4" href="{% url 'room' %}">{% translate "All rooms" %}</a>
+</div>

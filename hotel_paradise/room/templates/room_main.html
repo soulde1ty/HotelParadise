@@ -1,0 +1,21 @@
+{% extends 'index.html' %}
+{% load i18n %}
+
+{% block content %}
+    <!-- Page Header Start -->
+    {% include 'room_page_header.html' %}
+    <!-- Page Header End -->
+
+    <!-- Booking Start -->
+    {% include 'room_booking.html' %}
+    <!-- Booking End -->
+
+    <!-- Room Start -->
+    {% include 'room_body.html' %}
+    <!-- Room End -->
+
+    <!-- Testimonial Start -->
+    {% include 'testimonial.html' %}
+    <!-- Testimonial End -->
+
+{% endblock %}

@@ -1,0 +1,401 @@
+# Russian translations for Hotel Paradise.
+# Copyright (C) 2026 ORGANIZATION
+# This file is distributed under the same license as the Hotel Paradise project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hotel Paradise 1.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-01 08:21+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || "
+"n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#, python-format
+msgid "%(guest)s, %(room)s, %(check_in)s to %(check_out)s, $%(price)s"
+msgstr "%(guest)s, %(room)s, с %(check_in)s по %(check_out)s, $%(price)s"
+
+#, python-format
+msgid "%(title)s, %(bedrooms)s Bedroom, %(bathrooms)s Bathroom, $%(price)s"
+msgstr "%(title)s, спален: %(bedrooms)s, ванных: %(bathrooms)s, $%(price)s"
+
+msgid "/ night"
+msgstr "/ ночь"
+
+msgid "123 Street, New York, USA"
+msgstr "123-я улица, Нью-Йорк, США"
+
+msgid "About"
+msgstr "Об отеле"
+
+msgid "About Us"
+msgstr "Об отеле"
+
+msgid "All rights reserved."
+msgstr "Все права защищены."
+
+msgid "All rooms"
+msgstr "Все номера"
+
+msgid "Another booking is being processed. Please try again."
+msgstr "Сейчас обрабатывается другое бронирование. Попробуйте ещё раз."
+
+msgid "Back to rooms"
+msgstr "Назад к номерам"
+
+msgid "Back to top"
+msgstr "Наверх"
+
+msgid "Bathrooms"
+msgstr "Ванные комнаты"
+
+msgid "Bedrooms"
+msgstr "Спальни"
+
+msgid "Bedrooms:"
+msgstr "Спален:"
+
+msgid "Book A"
+msgstr "Забронируйте"
+
+msgid "Book A Room"
+msgstr "Забронировать номер"
+
+msgid "Book now"
+msgstr "Забронировать"
+
+msgid "Booking"
+msgstr "Бронирование"
+
+#, python-format
+msgid "Booking #%(number)s confirmed. Total: $%(total)s."
+msgstr "Бронирование №%(number)s подтверждено. Итого: $%(total)s."
+
+msgid "Bookings"
+msgstr "Бронирования"
+
+msgid "Cancel selected bookings"
+msgstr "Отменить выбранные бронирования"
+
+msgid "Cancelled"
+msgstr "Отменено"
+
+#, python-format
+msgid "Cancelled bookings: %(count)s."
+msgstr "Отменено бронирований: %(count)s."
+
+msgid "Check-in"
+msgstr "Дата заезда"
+
+msgid "Check-in cannot be in the past."
+msgstr "Дата заезда не может быть в прошлом."
+
+msgid "Check-out"
+msgstr "Дата выезда"
+
+msgid "Check-out must be after check-in."
+msgstr "Дата выезда должна быть позже даты заезда."
+
+msgid "Choose dates and book"
+msgstr "Выбрать даты и забронировать"
+
+msgid "Clients"
+msgstr "Гости"
+
+msgid "Close"
+msgstr "Закрыть"
+
+msgid "Company"
+msgstr "Об отеле"
+
+msgid "Confirm booking"
+msgstr "Подтвердить бронирование"
+
+msgid "Confirmed"
+msgstr "Подтверждено"
+
+msgid "Contact"
+msgstr "Контакты"
+
+msgid "Contact Us"
+msgstr "Связаться с нами"
+
+msgid "Contact our team"
+msgstr "Связаться с нами"
+
+msgid "Contact our team to learn more about this service and arrange it for your stay."
+msgstr "Свяжитесь с нами, чтобы узнать подробнее об этой услуге и заказать её на время вашего отдыха."
+
+msgid "Contact us"
+msgstr "Связаться с нами"
+
+msgid "Description (English)"
+msgstr "Описание (английский)"
+
+msgid "Description (Russian)"
+msgstr "Описание (русский)"
+
+msgid "Designed by"
+msgstr "Автор дизайна:"
+
+msgid "Discover A Brand Luxurious Hotel"
+msgstr "Откройте для себя комфортный отдых"
+
+msgid "Distributed By:"
+msgstr "Распространение:"
+
+msgid "Email"
+msgstr "Электронная почта"
+
+msgid "English"
+msgstr "Английский"
+
+msgid "Event & Party"
+msgstr "События и праздники"
+
+msgid "Explore More"
+msgstr "Подробнее"
+
+msgid "Explore Our"
+msgstr "Наши"
+
+msgid "Find a room"
+msgstr "Найти номер"
+
+msgid "Food & Restaurant"
+msgstr "Ресторан и питание"
+
+msgid "For an existing booking, include your booking number."
+msgstr "Если вы уже забронировали номер, укажите номер бронирования."
+
+msgid "GYM & Yoga"
+msgstr "Спортзал и йога"
+
+msgid "Guest"
+msgstr "Гость"
+
+msgid "Guest email"
+msgstr "Электронная почта гостя"
+
+msgid "Guest message"
+msgstr "Сообщение гостя"
+
+msgid "Guest messages"
+msgstr "Сообщения гостей"
+
+msgid "Guest name"
+msgstr "Имя гостя"
+
+msgid "Have a question about your stay? Send our team a message."
+msgstr "Есть вопросы о проживании? Напишите нашей команде."
+
+msgid "Help"
+msgstr "Помощь"
+
+msgid "Home"
+msgstr "Главная"
+
+msgid "Hotel Paradise - Lovers' Choice"
+msgstr "Hotel Paradise — ваш уютный отдых"
+
+msgid "Hotel Paradise administration"
+msgstr "Администрирование Hotel Paradise"
+
+msgid ""
+"Hotel Paradise offers comfortable rooms for holidays and business trips. Choose your dates, "
+"explore our rooms and plan a stay that suits you."
+msgstr ""
+"Hotel Paradise предлагает уютные номера для отдыха и деловых поездок. Выберите даты, посмотрите "
+"наши номера и спланируйте поездку так, как удобно вам."
+
+msgid "Hotel management"
+msgstr "Управление отелем"
+
+msgid "Image"
+msgstr "Изображение"
+
+msgid "Language"
+msgstr "Язык"
+
+msgid "Loading..."
+msgstr "Загрузка…"
+
+msgid "Luxury Living"
+msgstr "Отдых с комфортом"
+
+msgid "Luxury Room"
+msgstr "комфортный номер"
+
+msgid ""
+"Luxury, sophistication, and flawless service - that's what you'll find at our premium hotel. "
+"Upholding the highest standards of comfort and elegance, we craft a unique experience to ensure "
+"every moment of your stay is unforgettable."
+msgstr ""
+"Уютные номера, внимательное обслуживание и спокойная атмосфера — всё для вашего отдыха. Мы "
+"заботимся о деталях, чтобы каждый день в нашем отеле оставлял приятные впечатления."
+
+msgid "Message"
+msgstr "Сообщение"
+
+msgid "Name"
+msgstr "Имя"
+
+msgid "Need help planning your stay?"
+msgstr "Нужна помощь с планированием отдыха?"
+
+msgid "Next"
+msgstr "Далее"
+
+msgid "No rooms are currently available."
+msgstr "Сейчас нет доступных номеров."
+
+msgid "No rooms match your search. Try other dates or filters."
+msgstr "По вашему запросу номера не найдены. Попробуйте другие даты или фильтры."
+
+msgid "Open for bookings"
+msgstr "Открыт для бронирования"
+
+msgid "Open navigation"
+msgstr "Открыть меню"
+
+msgid "Our Rooms"
+msgstr "Наши номера"
+
+msgid "Our Services"
+msgstr "Наши услуги"
+
+msgid "Our Team"
+msgstr "Наша команда"
+
+msgid "Pages"
+msgstr "Разделы"
+
+msgid "Please enter both check-in and check-out dates."
+msgstr "Укажите обе даты: заезд и выезд."
+
+msgid "Position"
+msgstr "Должность"
+
+msgid "Previous"
+msgstr "Назад"
+
+msgid "Price per night"
+msgstr "Цена за ночь"
+
+msgid "Reset"
+msgstr "Сбросить"
+
+msgid "Reviews"
+msgstr "Отзывы"
+
+msgid "Room"
+msgstr "Номер"
+
+msgid "Room Booking"
+msgstr "Бронирование номера"
+
+msgid "Rooms"
+msgstr "Номера"
+
+msgid "Rooms & Apartments"
+msgstr "Номера и апартаменты"
+
+msgid "Russian"
+msgstr "Русский"
+
+msgid "Sample review"
+msgstr "Пример отзыва"
+
+msgid "Search rooms"
+msgstr "Найти номера"
+
+msgid "Search your room"
+msgstr "Найти номер"
+
+msgid "Send message"
+msgstr "Отправить сообщение"
+
+msgid "Services"
+msgstr "Услуги"
+
+msgid "Spa & Fitness"
+msgstr "Спа и фитнес"
+
+msgid "Special request"
+msgstr "Пожелания"
+
+msgid "Sports & Gaming"
+msgstr "Спорт и развлечения"
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "Subject"
+msgstr "Тема"
+
+msgid "Support"
+msgstr "Поддержка"
+
+msgid "Team"
+msgstr "Сотрудники"
+
+msgid "Team member"
+msgstr "Сотрудник отеля"
+
+msgid "Testimonial"
+msgstr "Отзывы"
+
+msgid "Thank you! Your message has been received."
+msgstr "Спасибо! Ваше сообщение получено."
+
+msgid "The total is calculated from your check-in and check-out dates."
+msgstr "Итоговая стоимость рассчитывается по датам заезда и выезда."
+
+msgid "This is a sample review. Replace it with feedback from your guests before publishing."
+msgstr "Это пример отзыва. Перед публикацией замените его настоящим отзывом гостя."
+
+msgid "This room is already booked for the selected dates."
+msgstr "Этот номер уже забронирован на выбранные даты."
+
+msgid "This room is currently closed for bookings."
+msgstr "Этот номер временно закрыт для бронирования."
+
+msgid "Title (English)"
+msgstr "Название (английский)"
+
+msgid "Title (Russian)"
+msgstr "Название (русский)"
+
+msgid "Total price"
+msgstr "Итоговая стоимость"
+
+msgid "View details"
+msgstr "Подробнее"
+
+msgid "Welcome to"
+msgstr "Добро пожаловать в"
+
+msgid "Youtube Video"
+msgstr "Видео об отеле"
+
+msgid "breadcrumb"
+msgstr "Навигация по страницам"
+
+msgid "per night"
+msgstr "за ночь"
+
+msgid "· Bathrooms:"
+msgstr "· Ванных:"
+
+msgid "· Wi-Fi"
+msgstr "· Wi-Fi"
+

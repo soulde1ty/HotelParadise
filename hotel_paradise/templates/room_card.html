@@ -1,0 +1,16 @@
+{% load i18n %}
+<div class="col-lg-4 col-md-6">
+    <article class="room-item shadow rounded overflow-hidden h-100">
+        <img class="img-fluid w-100" style="height:240px;object-fit:cover" src="{{ room.image_url }}" alt="{{ room.display_title }}" loading="lazy">
+        <div class="p-4">
+            <h3 class="h5">{{ room.display_title }}</h3>
+            <p><strong>${{ room.price_per_night }} {% translate "/ night" %}</strong></p>
+            <p>{% translate "Bedrooms:" %} {{ room.bedroom_count }} {% translate "· Bathrooms:" %} {{ room.bathroom_count }} {% translate "· Wi-Fi" %}</p>
+            <p>{{ room.display_description|truncatechars:120 }}</p>
+            <div class="d-flex gap-2 flex-wrap">
+                <a class="btn btn-outline-primary" href="{% url 'room_detail' room.pk %}">{% translate "View details" %}</a>
+                <a class="btn btn-dark" href="{% url 'booking' room.pk %}{% if dates_query %}?{{ dates_query }}{% endif %}">{% translate "Book now" %}</a>
+            </div>
+        </div>
+    </article>
+</div>

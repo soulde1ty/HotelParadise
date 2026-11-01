@@ -1,0 +1,19 @@
+{% extends 'index.html' %}
+{% load i18n %}
+{% block content %}
+<div class="container py-5">
+    <a href="{% url 'room' %}">{% translate "Back to rooms" %}</a>
+    <div class="row g-4 mt-2">
+        <div class="col-lg-6"><img class="img-fluid rounded" src="{{ room.image_url }}" alt="{{ room.display_title }}"></div>
+        <div class="col-lg-6">
+            <h1>{{ room.display_title }}</h1>
+            <p>{{ room.display_description|linebreaksbr }}</p>
+            <p>{% translate "Bedrooms:" %} {{ room.bedroom_count }} {% translate "· Bathrooms:" %} {{ room.bathroom_count }}</p>
+            <p class="fs-4">${{ room.price_per_night }} {% translate "per night" %}</p>
+            {% if room.available %}
+            <a class="btn btn-primary" href="{% url 'booking' room.pk %}">{% translate "Choose dates and book" %}</a>
+            {% else %}<p class="alert alert-info">{% translate "This room is currently closed for bookings." %}</p>{% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}

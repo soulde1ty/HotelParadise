@@ -1,0 +1,17 @@
+{% load i18n %}
+<div class="container py-5">
+    <div class="row g-5">
+        <div class="col-lg-5">
+            <h1>{% translate "Contact us" %}</h1>
+            <p>{% translate "Have a question about your stay? Send our team a message." %}</p>
+            <p>{% translate "For an existing booking, include your booking number." %}</p>
+        </div>
+        <div class="col-lg-7">
+            <form method="post">
+                {% csrf_token %}
+                {% include 'form_fields.html' %}
+                <button class="btn btn-primary" type="submit">{% translate "Send message" %}</button>
+            </form>
+        </div>
+    </div>
+</div>

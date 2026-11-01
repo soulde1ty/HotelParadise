@@ -1,0 +1,77 @@
+{% load i18n %}
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title text-center text-primary text-uppercase">{% translate "Our Services" %}</h6>
+            <h1 class="mb-5">{% translate "Explore Our" %} <span class="text-primary text-uppercase">{% translate "Services" %}</span></h1>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <a class="service-item rounded" href="{% url 'contact' %}">
+                    <div class="service-icon bg-transparent border rounded p-1">
+                        <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                            <i class="fa fa-hotel fa-2x text-primary"></i>
+                        </div>
+                    </div>
+                    <h5 class="mb-3">{% translate "Rooms & Apartments" %}</h5>
+                    <p class="text-body mb-0">{% translate "Contact our team to learn more about this service and arrange it for your stay." %}</p>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                <a class="service-item rounded" href="{% url 'contact' %}">
+                    <div class="service-icon bg-transparent border rounded p-1">
+                        <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                            <i class="fa fa-utensils fa-2x text-primary"></i>
+                        </div>
+                    </div>
+                    <h5 class="mb-3">{% translate "Food & Restaurant" %}</h5>
+                    <p class="text-body mb-0">{% translate "Contact our team to learn more about this service and arrange it for your stay." %}</p>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <a class="service-item rounded" href="{% url 'contact' %}">
+                    <div class="service-icon bg-transparent border rounded p-1">
+                        <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                            <i class="fa fa-spa fa-2x text-primary"></i>
+                        </div>
+                    </div>
+                    <h5 class="mb-3">{% translate "Spa & Fitness" %}</h5>
+                    <p class="text-body mb-0">{% translate "Contact our team to learn more about this service and arrange it for your stay." %}</p>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                <a class="service-item rounded" href="{% url 'contact' %}">
+                    <div class="service-icon bg-transparent border rounded p-1">
+                        <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                            <i class="fa fa-swimmer fa-2x text-primary"></i>
+                        </div>
+                    </div>
+                    <h5 class="mb-3">{% translate "Sports & Gaming" %}</h5>
+                    <p class="text-body mb-0">{% translate "Contact our team to learn more about this service and arrange it for your stay." %}</p>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <a class="service-item rounded" href="{% url 'contact' %}">
+                    <div class="service-icon bg-transparent border rounded p-1">
+                        <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                            <i class="fa fa-glass-cheers fa-2x text-primary"></i>
+                        </div>
+                    </div>
+                    <h5 class="mb-3">{% translate "Event & Party" %}</h5>
+                    <p class="text-body mb-0">{% translate "Contact our team to learn more about this service and arrange it for your stay." %}</p>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                <a class="service-item rounded" href="{% url 'contact' %}">
+                    <div class="service-icon bg-transparent border rounded p-1">
+                        <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                            <i class="fa fa-dumbbell fa-2x text-primary"></i>
+                        </div>
+                    </div>
+                    <h5 class="mb-3">{% translate "GYM & Yoga" %}</h5>
+                    <p class="text-body mb-0">{% translate "Contact our team to learn more about this service and arrange it for your stay." %}</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
